@@ -69,7 +69,7 @@ body{
 }
 
 .form-button button{
-    width: 25%;
+    width: 35%;
     padding: 8px 16px;
     border-radius: 10px;
     border: none;
@@ -83,4 +83,34 @@ body{
 #btnExpanse{
     background-color: tomato;
     color: aliceblue;
+}
+
+.transaction-box{
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-item{
+    width: 50%;
+    padding: 8px;
+    text-align: center;
+}
+
+.transaction-heading{
+    margin-bottom: 16px;
+}
+
+.transaction-table{
+    width: 100%;
+}
+
+.transaction-table table{
+    width: 100%;
+}
+
+th,td{
+    padding: 8px;
 }
